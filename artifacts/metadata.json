@@ -1,0 +1,459 @@
+{
+  "target_column": "RainTomorrow",
+  "dataset_shape": [
+    145460,
+    23
+  ],
+  "prepared_shape": [
+    142193,
+    22
+  ],
+  "train_shape": [
+    113754,
+    110
+  ],
+  "test_shape": [
+    28439,
+    110
+  ],
+  "input_dim": 110,
+  "raw_feature_columns": [
+    "Location",
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustDir",
+    "WindGustSpeed",
+    "WindDir9am",
+    "WindDir3pm",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm",
+    "RainToday"
+  ],
+  "numeric_columns": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustSpeed",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm",
+    "RainToday"
+  ],
+  "categorical_columns": [
+    "Location",
+    "WindGustDir",
+    "WindDir9am",
+    "WindDir3pm"
+  ],
+  "dummy_columns": [
+    "Location",
+    "WindGustDir",
+    "WindDir9am",
+    "WindDir3pm"
+  ],
+  "final_columns": [
+    "MinTemp",
+    "MaxTemp",
+    "Rainfall",
+    "Evaporation",
+    "Sunshine",
+    "WindGustSpeed",
+    "WindSpeed9am",
+    "WindSpeed3pm",
+    "Humidity9am",
+    "Humidity3pm",
+    "Pressure9am",
+    "Pressure3pm",
+    "Cloud9am",
+    "Cloud3pm",
+    "Temp9am",
+    "Temp3pm",
+    "RainToday",
+    "Location_Albany",
+    "Location_Albury",
+    "Location_AliceSprings",
+    "Location_BadgerysCreek",
+    "Location_Ballarat",
+    "Location_Bendigo",
+    "Location_Brisbane",
+    "Location_Cairns",
+    "Location_Canberra",
+    "Location_Cobar",
+    "Location_CoffsHarbour",
+    "Location_Dartmoor",
+    "Location_Darwin",
+    "Location_GoldCoast",
+    "Location_Hobart",
+    "Location_Katherine",
+    "Location_Launceston",
+    "Location_Melbourne",
+    "Location_MelbourneAirport",
+    "Location_Mildura",
+    "Location_Moree",
+    "Location_MountGambier",
+    "Location_MountGinini",
+    "Location_Newcastle",
+    "Location_Nhil",
+    "Location_NorahHead",
+    "Location_NorfolkIsland",
+    "Location_Nuriootpa",
+    "Location_PearceRAAF",
+    "Location_Penrith",
+    "Location_Perth",
+    "Location_PerthAirport",
+    "Location_Portland",
+    "Location_Richmond",
+    "Location_Sale",
+    "Location_SalmonGums",
+    "Location_Sydney",
+    "Location_SydneyAirport",
+    "Location_Townsville",
+    "Location_Tuggeranong",
+    "Location_Uluru",
+    "Location_WaggaWagga",
+    "Location_Walpole",
+    "Location_Watsonia",
+    "Location_Williamtown",
+    "Location_Witchcliffe",
+    "Location_Wollongong",
+    "Location_Woomera",
+    "WindGustDir_ENE",
+    "WindGustDir_ESE",
+    "WindGustDir_N",
+    "WindGustDir_NE",
+    "WindGustDir_NNE",
+    "WindGustDir_NNW",
+    "WindGustDir_NW",
+    "WindGustDir_S",
+    "WindGustDir_SE",
+    "WindGustDir_SSE",
+    "WindGustDir_SSW",
+    "WindGustDir_SW",
+    "WindGustDir_W",
+    "WindGustDir_WNW",
+    "WindGustDir_WSW",
+    "WindDir9am_ENE",
+    "WindDir9am_ESE",
+    "WindDir9am_N",
+    "WindDir9am_NE",
+    "WindDir9am_NNE",
+    "WindDir9am_NNW",
+    "WindDir9am_NW",
+    "WindDir9am_S",
+    "WindDir9am_SE",
+    "WindDir9am_SSE",
+    "WindDir9am_SSW",
+    "WindDir9am_SW",
+    "WindDir9am_W",
+    "WindDir9am_WNW",
+    "WindDir9am_WSW",
+    "WindDir3pm_ENE",
+    "WindDir3pm_ESE",
+    "WindDir3pm_N",
+    "WindDir3pm_NE",
+    "WindDir3pm_NNE",
+    "WindDir3pm_NNW",
+    "WindDir3pm_NW",
+    "WindDir3pm_S",
+    "WindDir3pm_SE",
+    "WindDir3pm_SSE",
+    "WindDir3pm_SSW",
+    "WindDir3pm_SW",
+    "WindDir3pm_W",
+    "WindDir3pm_WNW",
+    "WindDir3pm_WSW"
+  ],
+  "category_options": {
+    "Location": [
+      "Adelaide",
+      "Albany",
+      "Albury",
+      "AliceSprings",
+      "BadgerysCreek",
+      "Ballarat",
+      "Bendigo",
+      "Brisbane",
+      "Cairns",
+      "Canberra",
+      "Cobar",
+      "CoffsHarbour",
+      "Dartmoor",
+      "Darwin",
+      "GoldCoast",
+      "Hobart",
+      "Katherine",
+      "Launceston",
+      "Melbourne",
+      "MelbourneAirport",
+      "Mildura",
+      "Moree",
+      "MountGambier",
+      "MountGinini",
+      "Newcastle",
+      "Nhil",
+      "NorahHead",
+      "NorfolkIsland",
+      "Nuriootpa",
+      "PearceRAAF",
+      "Penrith",
+      "Perth",
+      "PerthAirport",
+      "Portland",
+      "Richmond",
+      "Sale",
+      "SalmonGums",
+      "Sydney",
+      "SydneyAirport",
+      "Townsville",
+      "Tuggeranong",
+      "Uluru",
+      "WaggaWagga",
+      "Walpole",
+      "Watsonia",
+      "Williamtown",
+      "Witchcliffe",
+      "Wollongong",
+      "Woomera"
+    ],
+    "WindGustDir": [
+      "E",
+      "ENE",
+      "ESE",
+      "N",
+      "NE",
+      "NNE",
+      "NNW",
+      "NW",
+      "S",
+      "SE",
+      "SSE",
+      "SSW",
+      "SW",
+      "W",
+      "WNW",
+      "WSW"
+    ],
+    "WindDir9am": [
+      "E",
+      "ENE",
+      "ESE",
+      "N",
+      "NE",
+      "NNE",
+      "NNW",
+      "NW",
+      "S",
+      "SE",
+      "SSE",
+      "SSW",
+      "SW",
+      "W",
+      "WNW",
+      "WSW"
+    ],
+    "WindDir3pm": [
+      "E",
+      "ENE",
+      "ESE",
+      "N",
+      "NE",
+      "NNE",
+      "NNW",
+      "NW",
+      "S",
+      "SE",
+      "SSE",
+      "SSW",
+      "SW",
+      "W",
+      "WNW",
+      "WSW"
+    ]
+  },
+  "numeric_defaults": {
+    "MinTemp": 12.0,
+    "MaxTemp": 22.6,
+    "Rainfall": 0.0,
+    "Evaporation": 4.8,
+    "Sunshine": 8.5,
+    "WindGustSpeed": 39.0,
+    "WindSpeed9am": 13.0,
+    "WindSpeed3pm": 19.0,
+    "Humidity9am": 70.0,
+    "Humidity3pm": 52.0,
+    "Pressure9am": 1017.6,
+    "Pressure3pm": 1015.2,
+    "Cloud9am": 5.0,
+    "Cloud3pm": 5.0,
+    "Temp9am": 16.7,
+    "Temp3pm": 21.1,
+    "RainToday": 0.0
+  },
+  "feature_summary": [
+    {
+      "feature": "MinTemp",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "MaxTemp",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Rainfall",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Evaporation",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Sunshine",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "WindGustSpeed",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "WindSpeed9am",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "WindSpeed3pm",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Humidity9am",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Humidity3pm",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Pressure9am",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Pressure3pm",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Cloud9am",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Cloud3pm",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Temp9am",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Temp3pm",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "RainToday",
+      "type": "numerica",
+      "treatment": "mediana + StandardScaler"
+    },
+    {
+      "feature": "Location",
+      "type": "categorica",
+      "treatment": "moda + LabelEncoder/get_dummies"
+    },
+    {
+      "feature": "WindGustDir",
+      "type": "categorica",
+      "treatment": "moda + LabelEncoder/get_dummies"
+    },
+    {
+      "feature": "WindDir9am",
+      "type": "categorica",
+      "treatment": "moda + LabelEncoder/get_dummies"
+    },
+    {
+      "feature": "WindDir3pm",
+      "type": "categorica",
+      "treatment": "moda + LabelEncoder/get_dummies"
+    }
+  ],
+  "rain_today_mapping": {
+    "No": 0,
+    "Yes": 1
+  },
+  "class_weight_dict": {
+    "0": 0.6447323675440386,
+    "1": 2.227326127819549
+  },
+  "cross_validation": {
+    "fold_best_val_accuracy": [
+      0.8186613321304321,
+      0.8050529956817627,
+      0.8170261979103088
+    ],
+    "mean_val_accuracy": 0.8135801752408346,
+    "std_val_accuracy": 0.006066465714837278
+  },
+  "best_epoch": 26,
+  "epochs_ran": 30,
+  "training_time_seconds": 90.12796020507812,
+  "parameters": {
+    "epochs": 30,
+    "batch_size": 128,
+    "optimizer": "adam",
+    "loss": "binary_crossentropy",
+    "validation_split": 0.1
+  },
+  "model_architecture": {
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "dropout": [
+      0.3,
+      0.2,
+      0.2
+    ],
+    "output_activation": "sigmoid"
+  }
+}
